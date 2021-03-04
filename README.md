@@ -1,4 +1,4 @@
-# DEVOPS Scripts
+# Scripts
 
 
 ## About
@@ -6,14 +6,17 @@
 Helper scripts
 
 
+## create-localhost-cert.sh
+
+Creates localhost x509 certificate and key for localhost server and export it in pkcs12 file.
+
+
 ## env2json.sh
 
 
 This script converts operating system ENVIRONMENT variables to json.
 
-
-
-### Usage
+**Usage**
 
 ```bash
 env2json.sh [regexp pattern]
@@ -21,7 +24,7 @@ env2json.sh [regexp pattern]
 
 
 
-### Example
+**Example**
 
 For example if OS has this environment variables
 
